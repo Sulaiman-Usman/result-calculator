@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="a simple result calculator" />
+    <meta name="keyword" content="school, result, calculator" />
+    <meta name="Author" content="Sulaiman Usman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School | Result | Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8026a8e2c4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">School Result Calculator</h1>
+      <h3>For Teachers in Primary and Secondary Schools</h3>
+    </header>
+    <main>
+      <p class="hint">
+        Hint: Please use comma<code>(,)</code> to seperate each totals
+      </p>
+      <form action="#" class="form-container">
+        <div>
+          <label for="input">Totals</label>
+          <input
+            class="totals"
+            type="text"
+            name="totals"
+            id="input"
+            autocomplete="off"
+            placeholder="List of Student Overall Totals"
+          />
+        </div>
+
+        <div>
+          <label for="num" title="Number of Subjects"> No of Subjects</label>
+          <input
+            class="input-num"
+            type="text"
+            name="totals"
+            autocomplete="off"
+            id="num"
+            placeholder="Number of Subjects"
+            title="Number of Subjects"
+          />
+        </div>
+      </form>
+      <div class="btns">
+        <button class="btn btn-calc">Calculate</button>
+        <button class="btn btn-reset">Reset</button>
+      </div>
+      <table>
+        <tr>
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>Average</th>
+              <th>Totals</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </tr>
+      </table>
+      <p></p>
+    </main>
+    <footer>
+      <p>
+        Copyright &copy; <time>2022</time> by Result Calculator, Inc All right
+        reserved.
+      </p>
+      <p class="contact-title">Contact Me</p>
+      <div class="socials">
+        <a
+          target="_blank"
+          href="https://m.facebook.com/profile.php/?id=100030741107120"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a target="_blank" href="https://twitter.com/Sulaima22738892"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/usman-sulaiman-7aa721148"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <address class="contacts">
+        <p>APC Quaters Off Birin Ruwa Street, Suleja Niger State</p>
+        <p>
+          <a class="footer-link" href="tel:07068131540">07068131540</a><br />
+          <a class="footer-link" href="mailto:sulaimanahmadu40@gmail.com"
+            >sulaimanahmadu40@gmail.com</a
+          >
+        </p>
+      </address>
+    </footer>
+  </body>
+</html>
