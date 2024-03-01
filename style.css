@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 88em) {
   /* CSS RESET */
   * {
     margin: 0;
@@ -204,7 +204,7 @@
 }
 /* Media Queries */
 /* TABLET */
-@media (max-width: 768px) {
+@media (max-width: 48em) {
   .form-container div:last-child {
     text-wrap: nowrap;
     flex: 2;
@@ -215,7 +215,7 @@
   }
 }
 /* MOBILE */
-@media (max-width: 500px) {
+@media (max-width: 31.3em) {
   header .header-title {
     background: #009900;
     color: rgb(255, 255, 255);
