@@ -170,13 +170,13 @@
   footer .socials .fa-brands {
     font-size: 20px;
     color: wheat;
-    padding-top: 15px;
+    padding-top: 10px;
   }
 
   footer .contact-title {
     font-size: 16px;
     font-family: cursive;
-    text-decoration: underline;
+    margin-top: 5px;
   }
 
   footer .contacts p {
@@ -342,7 +342,14 @@
   footer .contacts p:last-child {
     display: flex;
     flex-direction: column;
-    gap: 0;
+    gap: 5px;
     padding-bottom: 20px;
+  }
+  footer .contacts p:first-child {
+    margin: 0;
+  }
+
+  footer .copy-right {
+    line-height: 1.5;
   }
 }
