@@ -19,18 +19,22 @@ calcBtn.addEventListener("click", (e) => {
 
   for (let i = 0; i < avg.length; i++) {
     subjectNo = Number(subjectNo);
-    if (!subjectNo) {
+    if (subjectNo === 0) {
       alert("Number of subject can't be empty, put in a value");
-      break;
     }
+
+    if (isNaN(subjectNo)) {
+      alert("Opps! use only numbers");
+    }
+
     if (inputTotal.includes(".")) {
       alert("Opps! use only comma(,) to seperate totals");
       break;
-    } else if (inputTotal === "") {
+    }
+    if (inputTotal === "") {
       alert("Totals can't be empty, put in a value");
-    } else if (isNaN(subjectNo)) {
-      alert("Opps! use only numbers");
-    } else if (inputTotal.includes(",") && !inputTotal.includes(".")) {
+    }
+    if (inputTotal.includes(",") && !inputTotal.includes(".")) {
       let tbody = document.querySelector("main tbody");
       let tr = document.createElement("tr");
       tbody.append(tr);
